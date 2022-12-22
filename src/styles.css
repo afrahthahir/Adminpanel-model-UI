@@ -1,0 +1,82 @@
+.App {
+  font-family: sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+}
+
+.Sidebar {
+  background-color: white;
+  width: 400px;
+  height: 100%;
+  text-align: center;
+  padding-right: 30px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.Menu ul {
+  list-style-type: none;
+}
+.Menu ul li {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Card {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 120px;
+  border-radius: 18%;
+  margin-right: 30px;
+}
+
+.CardList {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.SmallCardList {
+  display: flex;
+  flex-direction: row;
+}
+
+.BigCardList {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.BigCard {
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 350px;
+  height: 250px;
+  border-radius: 18%;
+  margin-right: 30px;
+}
+
+.BigCard button {
+  color: blue;
+  background-color: #81c2e3;
+  border: none;
+  padding: 15px;
+  border-radius: 20px;
+}
